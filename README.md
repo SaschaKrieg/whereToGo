@@ -7,13 +7,13 @@ Shows if the toilet door is open or closed in your Mac menu bar.
 #Install
 
 ##Step 1:
-[Get the latest version of BitBar](https://github.com/matryer/bitbar/releases). Copy it to your Applications folder and run it - it will ask you to (create and) select a plugins folder, do so.
+[Get the latest version of](https://github.com/matryer/bitbar/releases) (Download BitBar.zip). Copy it to your Applications folder and run it - it will ask you to (create and) select a plugins folder, do so.
 
 ##Step 2:
-[Get the latest version of whereToGo](https://github.com/SaschaKrieg/whereToGo/releases). Extract the zip file and copy the whereToGo.py and the whereToGo folder into your BitBar plugin folder.
+[Get the latest version of whereToGo](https://github.com/SaschaKrieg/whereToGo/releases) (Download whereToGoDistro.zip). Extract the zip file and copy the whereToGo.py and the whereToGo folder into your BitBar plugin folder.
 
 ##Step 3:
-Start BitBar. WhereToGo request you to enter the password for the "Hausautomation Autobot API" (see TeamVault). The password is stored in the keychain of your Mac.  
+Start BitBar or if BitBar is already startet go to the menu and select refresh. WhereToGo request you to enter the password for the "Hausautomation Autobot API" (see TeamVault). The password is stored in the keychain of your Mac.  
 
 ![passwordImage](whereToGo/docsImages/password.png)
 
@@ -21,6 +21,11 @@ Start BitBar. WhereToGo request you to enter the password for the "Hausautomatio
 Choose your preferred location in the menu. 
 
 ![menuImage](whereToGo/docsImages/menu.png)
+
+The status of your choosen location will be displayed by the menu Icon.
+
+* ![youCanGo](whereToGo/images/dogFace_36_144.png) you can go
+* ![Meeeh](whereToGo/images/grumpy_36_144.png) Meeeh
 
 #Further Configuration
 
@@ -33,7 +38,7 @@ You can configure the refresh rate. The refresh time is in the filename of the p
   * `time` - The refresh rate (see below)
   * `ext` - The file extension
 
-For example:
+For example:s
 
   * `whereToGo.45s.py` would refresh every 45 seconds.
 
