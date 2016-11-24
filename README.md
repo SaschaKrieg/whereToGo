@@ -22,10 +22,10 @@ Choose your preferred location in the menu.
 
 ![menuImage](whereToGo/docsImages/menu.png)
 
-The status of your choosen location will be displayed by the menu Icon.
+The status of your choosen location will be displayed by the menu icon.
 
-* ![youCanGo](whereToGo/images/dogFace_36_144.png) you can go
-* ![Meeeh](whereToGo/images/grumpy_36_144.png) Meeeh
+* you can go: ![youCanGo](whereToGo/images/dogFace_36_144.png) 
+* Meeeh: ![Meeeh](whereToGo/images/grumpy_36_144.png) 
 
 #Further Configuration
 
